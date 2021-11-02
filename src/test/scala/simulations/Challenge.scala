@@ -104,5 +104,9 @@ class Challenge extends Simulation {
         )
     ).protocols(httpConf.inferHtmlResources())
     .maxDuration(duration)
+    .assertions(
+        global.responseTime.max.lt(500),
+        global.successfulRequests.percent.gt(99)
+    )
 
 }
