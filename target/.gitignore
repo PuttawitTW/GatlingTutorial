@@ -1,7 +1,0 @@
-# ignore all logs
-*.log
-*.bin
-target/
-.bloop/
-.metals/
-.vscode
