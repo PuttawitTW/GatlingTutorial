@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.AddPauseTime",
+  "simulationId": "addpausetime",
+  "start": 1635396005692,
+  "description": "",
+  "scenarios": ["My Fisrt Test"],
+  "assertions": [
+
+  ]
+}

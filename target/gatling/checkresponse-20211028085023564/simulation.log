@@ -1,0 +1,6 @@
+RUN	simulations.CheckResponse	checkresponse	1635411023564	 	3.6.1
+USER	Video Game DB - 3 calls	START	1635411025934
+REQUEST		Get all video games	1635411025951	1635411028958	OK	 
+REQUEST		Get a video game by ID	1635411029974	1635411029978	OK	 
+REQUEST		Get all video games - 2nd call	1635411031267	1635411031271	OK	 
+USER	Video Game DB - 3 calls	END	1635411032280

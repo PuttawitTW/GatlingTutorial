@@ -1,0 +1,5 @@
+RUN	simulations.jsonPath	jsonpath	1635414518185	 	3.6.1
+USER	Video Game DB - 3 calls	START	1635414521661
+REQUEST		Get all video games	1635414521676	1635414524695	OK	 
+REQUEST		Get a video game by ID	1635414525756	1635414525759	KO	jsonPath($.name).find.is(Gran Turismo 4), but actually found Gran Turismo 3
+USER	Video Game DB - 3 calls	END	1635414526769

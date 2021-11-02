@@ -1,0 +1,317 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 3,
+        "ok": 2,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 7,
+        "ok": 7,
+        "ko": 47
+    },
+    "maxResponseTime": {
+        "total": 103,
+        "ok": 103,
+        "ko": 47
+    },
+    "meanResponseTime": {
+        "total": 52,
+        "ok": 55,
+        "ko": 47
+    },
+    "standardDeviation": {
+        "total": 39,
+        "ok": 48,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 47,
+        "ok": 55,
+        "ko": 47
+    },
+    "percentiles2": {
+        "total": 75,
+        "ok": 79,
+        "ko": 47
+    },
+    "percentiles3": {
+        "total": 97,
+        "ok": 98,
+        "ko": 47
+    },
+    "percentiles4": {
+        "total": 102,
+        "ok": 102,
+        "ko": 47
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 2,
+    "percentage": 67
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 33
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.3333333333333333,
+        "ok": 0.2222222222222222,
+        "ko": 0.1111111111111111
+    }
+},
+"contents": {
+"req_get-all-games-c1289": {
+        "type": "REQUEST",
+        "name": "Get all games",
+"path": "Get all games",
+"pathFormatted": "req_get-all-games-c1289",
+"stats": {
+    "name": "Get all games",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 103,
+        "ok": 103,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 103,
+        "ok": 103,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 103,
+        "ok": 103,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 103,
+        "ok": 103,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 103,
+        "ok": 103,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 103,
+        "ok": 103,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 103,
+        "ok": 103,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.1111111111111111,
+        "ok": 0.1111111111111111,
+        "ko": 0
+    }
+}
+    },"req_get-one-game-by-a7067": {
+        "type": "REQUEST",
+        "name": "Get one game by Id",
+"path": "Get one game by Id",
+"pathFormatted": "req_get-one-game-by-a7067",
+"stats": {
+    "name": "Get one game by Id",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 0,
+        "ko": 1
+    },
+    "minResponseTime": {
+        "total": 47,
+        "ok": 0,
+        "ko": 47
+    },
+    "maxResponseTime": {
+        "total": 47,
+        "ok": 0,
+        "ko": 47
+    },
+    "meanResponseTime": {
+        "total": 47,
+        "ok": 0,
+        "ko": 47
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 47,
+        "ok": 0,
+        "ko": 47
+    },
+    "percentiles2": {
+        "total": 47,
+        "ok": 0,
+        "ko": 47
+    },
+    "percentiles3": {
+        "total": 47,
+        "ok": 0,
+        "ko": 47
+    },
+    "percentiles4": {
+        "total": 47,
+        "ok": 0,
+        "ko": 47
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 1,
+    "percentage": 100
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.1111111111111111,
+        "ok": 0,
+        "ko": 0.1111111111111111
+    }
+}
+    },"req_delete-a-game-cfa88": {
+        "type": "REQUEST",
+        "name": "Delete a game",
+"path": "Delete a game",
+"pathFormatted": "req_delete-a-game-cfa88",
+"stats": {
+    "name": "Delete a game",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 7,
+        "ok": 7,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 7,
+        "ok": 7,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 7,
+        "ok": 7,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 7,
+        "ok": 7,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 7,
+        "ok": 7,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 7,
+        "ok": 7,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 7,
+        "ok": 7,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.1111111111111111,
+        "ok": 0.1111111111111111,
+        "ko": 0
+    }
+}
+    }
+}
+
+}

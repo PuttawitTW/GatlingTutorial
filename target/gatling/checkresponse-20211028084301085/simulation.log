@@ -1,0 +1,6 @@
+RUN	simulations.CheckResponse	checkresponse	1635410581085	 	3.6.1
+USER	Video Game DB - 3 calls	START	1635410583816
+REQUEST		Get all video games	1635410583833	1635410587258	OK	 
+REQUEST		Get a video game by ID	1635410588277	1635410588280	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,210), but actually found 304
+REQUEST		Get all video games - 2nd call	1635410589794	1635410589798	OK	 
+USER	Video Game DB - 3 calls	END	1635410590804

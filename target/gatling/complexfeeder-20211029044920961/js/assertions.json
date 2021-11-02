@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.ComplexFeeder",
+  "simulationId": "complexfeeder",
+  "start": 1635482960961,
+  "description": "",
+  "scenarios": ["POST New Game with Custom Feeder"],
+  "assertions": [
+
+  ]
+}
