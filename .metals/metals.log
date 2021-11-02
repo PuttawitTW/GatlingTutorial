@@ -12931,3 +12931,23 @@ Starting thread that pumps server stdout and redirects it to the client stdout..
 [0m2021.11.02 14:38:28 INFO  no build target: using presentation compiler with only scala-library: 2.13.6[0m
 Nov 02, 2021 2:40:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Nov 02, 2021 3:19:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+Nov 02, 2021 3:19:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:222)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:128)
+	at scala.meta.internal.pc.HoverProvider.$anonfun$hover$1(HoverProvider.scala:24)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:24)
+
+[0m2021.11.02 15:19:45 INFO  compiling demo-test (1 scala source)[0m
+[0m2021.11.02 15:19:50 INFO  time: compiled demo-test in 4.41s[0m

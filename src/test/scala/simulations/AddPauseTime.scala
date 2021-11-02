@@ -25,13 +25,13 @@ class AddPauseTime extends Simulation{
 
     val scn = scenario("Video Game DB - 3 calls")
         .exec(getAllGames())
-        .pause(5)
+        .pause(2)
 
         .exec(getGameById())
-        .pause(5)
+        .pause(2)
 
         .exec(getAllGames())
-        .pause(5)
+        .pause(2)
 
     setUp(
         scn.inject(
