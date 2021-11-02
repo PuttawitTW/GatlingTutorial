@@ -1,3 +1,0 @@
-RUN	simulations.ComplexFeeder	complexfeeder	1635482089703	 	3.6.1
-USER	POST New Game with Custom Feeder	START	1635482092073
-ERROR	POST New Game: Failed to build request: No attribute named 'name' is defined 	1635482092097

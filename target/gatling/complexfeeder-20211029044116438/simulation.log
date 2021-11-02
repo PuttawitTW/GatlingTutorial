@@ -1,3 +1,0 @@
-RUN	simulations.ComplexFeeder	complexfeeder	1635482476438	 	3.6.1
-USER	POST New Game with Custom Feeder	START	1635482479410
-REQUEST		POST New Game	1635482479442	1635482482664	OK	 

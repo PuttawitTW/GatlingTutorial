@@ -1,6 +1,0 @@
-RUN	simulations.Challenge	challenge	1635741408433	 	3.6.1
-USER	Full Journey Script	START	1635741414272
-REQUEST		Get all games	1635741414293	1635741414331	OK	 
-ERROR	Add a new game : Failed to build request: No attribute named 'gameName' is defined 	1635741416357
-REQUEST		Delete a game	1635741418372	1635741418377	OK	 
-USER	Full Journey Script	END	1635741420381

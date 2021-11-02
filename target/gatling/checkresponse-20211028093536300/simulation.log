@@ -1,6 +1,0 @@
-RUN	simulations.CheckResponse	checkresponse	1635413736300	 	3.6.1
-USER	Video Game DB - 3 calls	START	1635413739137
-REQUEST		Get all video games	1635413739155	1635413743229	OK	 
-REQUEST		Get a video game by ID	1635413744243	1635413744247	KO	jsonPath($.name).find.is(Resident Evil 5), but actually found Resident Evil 4
-REQUEST		Get all video games - 2nd call	1635413746073	1635413746077	OK	 
-USER	Video Game DB - 3 calls	END	1635413747086

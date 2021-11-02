@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.Challenge",
+  "simulationId": "challenge",
+  "start": 1635841685782,
+  "description": "",
+  "scenarios": ["Full Journey Script"],
+  "assertions": [
+
+  ]
+}

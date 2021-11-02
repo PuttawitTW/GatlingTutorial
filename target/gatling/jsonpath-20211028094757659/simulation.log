@@ -1,5 +1,0 @@
-RUN	simulations.jsonPath	jsonpath	1635414477659	 	3.6.1
-USER	Video Game DB - 3 calls	START	1635414480680
-REQUEST		Get all video games	1635414480711	1635414484372	OK	 
-ERROR	Get a video game by ID: Failed to build request: No attribute named 'gameID' is defined 	1635414485431
-USER	Video Game DB - 3 calls	END	1635414486444
